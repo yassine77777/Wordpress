@@ -1,0 +1,1201 @@
+2023-07-26T05:10:12+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:10:12+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:10:58+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:11:23+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:13:21+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:15:13+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:16:34+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:17:03+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:17:40+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:18:01+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:18:53+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:19:53+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:20:56+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:22:22+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:22:22+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:23:31+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:25:58+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:26:57+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:28:02+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:28:29+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:29:02+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:30:05+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:31:06+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:32:05+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:33:09+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:34:40+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:35:35+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:36:26+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:36:35+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:37:37+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:38:54+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:38:54+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:40:15+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T05:41:17+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T07:50:42+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T07:50:42+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T07:51:13+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#14 /var/www/html/index.php(17): require('/var/www/html/w...')
+#15 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T07:51:39+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T07:59:35+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T08:00:42+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T08:00:42+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T08:00:46+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T08:01:51+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T08:03:06+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T08:05:48+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T08:07:51+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T08:09:34+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T08:10:34+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:880
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1026): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(840): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2553): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(659): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 880
+
+2023-07-26T10:22:14+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:900
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1036): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(876): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2578): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(695): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 900
+
+2023-07-26T10:23:21+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:900
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1036): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(876): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2578): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(695): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 900
+
+2023-07-26T10:24:30+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:900
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1036): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(876): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2578): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(695): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 900
+
+2023-07-26T10:25:39+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:900
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1036): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(876): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2578): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(695): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 900
+
+2023-07-26T10:26:33+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:900
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1036): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(876): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2578): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(695): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 900
+
+2023-07-26T10:27:26+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:900
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1036): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(876): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2578): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(695): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 900
+
+2023-07-26T10:28:20+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:900
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1036): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(876): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2578): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(695): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 900
+
+2023-07-26T10:28:23+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:900
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1036): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(876): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2578): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(695): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 900
+
+2023-07-26T10:29:22+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:900
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1036): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(876): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2578): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(695): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 900
+
+2023-07-26T10:30:24+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:900
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1036): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(876): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2578): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(695): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 900
+
+2023-07-26T10:31:23+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:900
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1036): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(876): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2578): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(695): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 900
+
+2023-07-26T10:32:23+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:900
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1036): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(876): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2578): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(695): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 900
+
+2023-07-26T10:33:19+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:900
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1036): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(876): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2578): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(695): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 900
+
+2023-07-26T10:36:08+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:900
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1036): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(876): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2578): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(695): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 900
+
+2023-07-26T10:37:04+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid billing email address in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:900
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(1036): WC_Data->error('customer_invali...', 'Invalid billing...')
+#1 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php(114): WC_Customer->set_billing_email('info@localhost')
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(125): WC_Data_Store->read(Object(WC_Customer))
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(876): WC_Customer->__construct(1, true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2578): WooCommerce->initialize_cart()
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(695): wc_load_cart()
+#7 /var/www/html/wp-includes/class-wp-hook.php(308): WooCommerce->init('')
+#8 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-settings.php(623): do_action('init')
+#11 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#12 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#13 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#14 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 900
+
