@@ -1,0 +1,1993 @@
+# Translation of Plugins - Duplicator &#8211; WordPress Migration Plugin - Stable (latest release) in Czech
+# This file is distributed under the same license as the Plugins - Duplicator &#8211; WordPress Migration Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-09-16 15:53:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.2\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Plugins - Duplicator &#8211; WordPress Migration Plugin - Stable (latest release)\n"
+
+#: views/packages/main/packages.php:406
+msgid "Other Resources:"
+msgstr "Jiné zdroje:"
+
+#: views/packages/main/packages.php:400
+msgid "How do I install a package?"
+msgstr "Jak nainstaluji balíček?"
+
+#: views/packages/main/packages.php:396
+msgid "How do I create a package"
+msgstr "Jak vytvořím balíček"
+
+#: views/packages/main/packages.php:393
+msgid "Common Questions:"
+msgstr "Běžné otázky:"
+
+#: views/packages/main/packages.php:380
+msgid "Duplicator Help"
+msgstr "Nápověda Duplicator"
+
+#: classes/ui/class.ui.notice.php:192
+msgid "Invalid token permissions to perform this request."
+msgstr "Neplatná oprávnění tokenu k provedení požadavku."
+
+#: classes/ui/class.ui.notice.php:189
+msgid "Redirecting Please Wait..."
+msgstr "Přesměrovávám, čekejte..."
+
+#: views/settings/packages.php:106
+msgid "PHP Code"
+msgstr "PHP kód"
+
+#: views/settings/packages.php:164
+msgid "mysqldump path:"
+msgstr "cesta k mysqldump:"
+
+#: views/settings/packages.php:156
+msgid "for reliable access to mysqldump."
+msgstr "pro spolehlivý přístup k mysqldump."
+
+#: views/settings/packages.php:142
+msgid "Successfully Found:"
+msgstr "Úspěšně nalezeno:"
+
+#: views/packages/main/s1.setup2.php:282
+msgid "Number of files filtered"
+msgstr "Počet filtrovaných souborů"
+
+#: views/packages/main/s1.setup2.php:281
+msgid "Files:"
+msgstr "Soubory:"
+
+#: views/packages/main/s1.setup2.php:256
+msgid "Number of directories filtered"
+msgstr "Počet filtrovaných adresářů"
+
+#: views/packages/main/s2.scan3.php:178 views/packages/main/s2.scan3.php:308
+msgid "*Checking a directory will exclude all items recursively from that path down.  Please use caution when filtering directories."
+msgstr "*Zaškrtnutím adresáře budou vyřazeny všechny vnořené položky v cestě.<br/>Postupujte opatrně při filtrování adresářů."
+
+#: views/packages/main/s1.setup2.php:397
+msgid "<i class='core-table-info'> Use caution when excluding tables! It is highly recommended to not exclude WordPress core tables*, unless you know the impact.</i>"
+msgstr "<i class='core-table-info'> Buďte opatrní při vynechávání tabulek! Důrazně doporučujeme nevynechávat  tabulky jádra WordPress*, pokud nevíte, co to udělá.</i>"
+
+#: views/packages/main/s1.setup2.php:396
+msgid "Excluding certain tables can cause your site or plugins to not work correctly after install!<br/>"
+msgstr "Vyřazení určitých tabulek může způsobit, že váš web nebo pluginy nebudou po instalaci správně fungovat!<br/>"
+
+#: views/packages/main/s1.setup2.php:395
+msgid "Checked tables will be <u>excluded</u> from the database script. "
+msgstr "Zaškrtnuté tabulky budou <u>vyřazeny</u> z databázového skriptu. "
+
+#: views/packages/main/packages.php:403
+msgid "Frequently Asked Questions!"
+msgstr "Často kladené otázky!"
+
+#: views/packages/main/s3.build.php:239
+msgid "How to install this package?"
+msgstr "Jak nainstaluji tento balíček?"
+
+#: views/packages/main/s3.build.php:189
+msgid "Click to download both files"
+msgstr "Klikněte ke stažení obou souborů"
+
+#: views/packages/main/s3.build.php:184
+msgid "Click to download archive file"
+msgstr "Klikněte ke stažení souboru archivu"
+
+#: views/packages/main/s3.build.php:181
+msgid "Click to download installer file"
+msgstr "Klikněte ke stažení souboru instalátoru"
+
+#: views/packages/main/s3.build.php:19
+msgid "Want more power?  Try"
+msgstr "Chcete víc funkcí? Zkuste"
+
+#: views/packages/main/s3.build.php:472
+msgid "PHP Max Execution Mode"
+msgstr "Mód PHP Max Execution"
+
+#: views/packages/main/s3.build.php:466 views/settings/packages.php:195
+msgid "Mode"
+msgstr "Mód"
+
+#: views/packages/main/s3.build.php:462
+msgid "This value is represented in seconds. A value of 0 means no timeout limit is set for PHP."
+msgstr "Tato hodnota je uvedena ve vteřinách. Hodnota 0 znamená, že není nastaven žádný limit timeoutu pro PHP."
+
+#: views/packages/main/packages.php:333 views/packages/main/s3.build.php:454
+msgid "Time"
+msgstr "Čas"
+
+#: views/packages/main/s3.build.php:330 views/packages/main/s3.build.php:400
+msgid "Please follow these steps:"
+msgstr "Následujte tyto kroky:"
+
+#: views/packages/main/s1.setup2.php:307 views/packages/main/s3.build.php:410
+msgid "Quick Start Two-Part Install Instructions"
+msgstr "Instrukce k rychlému startu dvoudílné instalace"
+
+#: views/packages/main/s3.build.php:405
+msgid "Complete the package build and follow the "
+msgstr "Dokončete vytvoření balíčku a následujte"
+
+#: views/packages/main/s3.build.php:403
+msgid "On Step 1 the \"Archive Only the Database\" checkbox will be auto checked."
+msgstr "V kroku 1 bude checkbox \"Archivovat jen databázi\" automaticky zaškrtnut."
+
+#: views/packages/main/s3.build.php:402
+msgid "Click the button below to go back to Step 1."
+msgstr "Klikněte na tlačítko níže k návratu do kroku 1."
+
+#: views/packages/main/s3.build.php:452
+msgid "PHP Max Execution"
+msgstr "PHP Max Execution"
+
+#: views/packages/main/s3.build.php:445
+msgid "RUNTIME DETAILS"
+msgstr "DETAILY RUNTIME"
+
+#: views/packages/main/s3.build.php:441
+msgid "Diagnose Server Setup"
+msgstr "Prověřit nastavení serveru"
+
+#: views/packages/main/packages.php:414
+msgid "Help review the plugin!"
+msgstr "Pomozte recenzovat plugin!"
+
+#: views/packages/main/packages.php:411
+msgid "Have an idea for the plugin?"
+msgstr "Máte nápad pro tento plugin?"
+
+#: views/packages/main/packages.php:408
+msgid "Need help with the plugin?"
+msgstr "Potřebujete pomoc s pluginem?"
+
+#: views/packages/main/packages.php:147 views/packages/main/packages.php:202
+msgid "New to Duplicator?"
+msgstr "Začínáte s Duplicator?"
+
+#: views/settings/packages.php:180
+msgid "<i class=\"fa fa-exclamation-triangle fa-sm\"></i> The custom path provided is not recognized as a valid mysqldump file:<br/>"
+msgstr "<i class=\"fa fa-exclamation-triangle fa-sm\"></i> Uvedená vlastní cesta nebyla rozpoznána jako platný soubor mysqldump:<br/>"
+
+#: classes/ui/class.ui.screen.base.php:101 views/settings/gopro.php:311
+#: views/tools/diagnostics/main.php:45
+msgid "Support"
+msgstr "Podpora"
+
+#: views/settings/packages.php:175
+msgid "/usr/bin/mypath/mysqldump"
+msgstr "/usr/bin/mypath/mysqldump.exe"
+
+#: views/packages/main/s3.build.php:448
+msgid "Allowed Runtime:"
+msgstr "Povolené runtime:"
+
+#: views/packages/main/s2.scan3.php:848 views/packages/main/s2.scan3.php:855
+msgid "Error applying filters.  Please go back to Step 1 to add filter manually!"
+msgstr "Chyba aplikování filtrů. Vraťte se ke kroku 1 a přidejte filtr ručně!"
+
+#: views/packages/main/s2.scan3.php:805
+msgid "Initializing Please Wait..."
+msgstr "Inicializuji, čekejte..."
+
+#: views/tools/diagnostics/inc.data.php:21
+msgid "Remove Installation Files"
+msgstr "Odstranit instalační soubory"
+
+#: views/packages/main/s2.scan3.php:798
+msgid "Manual copy of selected text required on this browser."
+msgstr "Tento prohlížeč vyžaduje ruční kopírování vybraného textu."
+
+#: views/packages/main/s2.scan3.php:758
+msgid "No files have been selected!"
+msgstr "Nebyly vybrány žádné soubory!"
+
+#: views/packages/main/s2.scan3.php:575
+msgid "Scan Details"
+msgstr "Detaily skenu"
+
+#: views/packages/main/s2.scan3.php:582
+msgid "Copy Quick Filter Paths"
+msgstr "Kopírovat cesty rychlého filtru"
+
+#: views/packages/main/s2.scan3.php:796
+msgid "Copied to Clipboard!"
+msgstr "Zkopírováno do schránky!"
+
+#: views/packages/main/s2.scan3.php:685
+msgid "Auto filters are applied to prevent archiving other backup sets."
+msgstr "Auto filtry jsou aplikovány, aby se předešlo archivování jiných záložních sad."
+
+#: views/packages/main/s2.scan3.php:428
+msgid "Enable mysqldump"
+msgstr "Povolit mysqldump"
+
+#: views/packages/main/s2.scan3.php:420 views/packages/main/s2.scan3.php:527
+msgid "RECOMMENDATIONS:"
+msgstr "DOPORUČENÍ:"
+
+#: views/packages/main/s2.scan3.php:411
+msgid "TABLE DETAILS:"
+msgstr "DETAILY TABULKY:"
+
+#: views/packages/main/s2.scan3.php:400
+msgid "TOTAL SIZE"
+msgstr "CELKOVÁ VELIKOST"
+
+#: views/packages/main/s2.scan3.php:183 views/packages/main/s2.scan3.php:313
+msgid "Copy Paths to Clipboard"
+msgstr "Kopírovat cesty do schránky"
+
+#: views/packages/main/s2.scan3.php:181 views/packages/main/s2.scan3.php:237
+#: views/packages/main/s2.scan3.php:311
+msgid "Add Filters &amp; Rescan"
+msgstr "Přidat filtry &amp; přeskenovat"
+
+#: views/packages/main/s2.scan3.php:162
+msgid "No large files found during this scan."
+msgstr "V průběhu skenu nebyly nalezeny žádné velké soubory."
+
+#: views/packages/main/s2.scan3.php:142 views/packages/main/s2.scan3.php:282
+msgid "Core WordPress directories should not be filtered. Use caution when excluding files."
+msgstr "Adresáře jádra WordPress by neměly být filtrovány. Dejte pozor při vynechávání souborů."
+
+#: views/packages/main/s2.scan3.php:132 views/packages/main/s2.scan3.php:267
+msgid "Show All"
+msgstr "Ukázat vše"
+
+#: views/packages/main/s2.scan3.php:131 views/packages/main/s2.scan3.php:266
+msgid "Hide All"
+msgstr "Skrýt vše"
+
+#: views/packages/main/s2.scan3.php:127 views/packages/main/s2.scan3.php:214
+#: views/packages/main/s2.scan3.php:263
+msgid "Quick Filters"
+msgstr "Rychlé filtry"
+
+#: views/packages/main/s2.scan3.php:110
+msgid "What can I try for Timeout Issues?"
+msgstr "Co můžu zkusit při problémech s timeouty?"
+
+#: views/packages/main/s2.scan3.php:95
+msgid "more details..."
+msgstr "více detailů..."
+
+#: views/packages/main/s2.scan3.php:86
+msgid "Size Checks"
+msgstr "Kontroly velikosti"
+
+#: views/packages/main/s2.scan3.php:45
+msgid "Archive Size"
+msgstr "Velikost archivu"
+
+#: views/packages/main/s2.scan3.php:24
+msgid "Show Scan Details"
+msgstr "Ukázat detaily skenu"
+
+#: views/packages/main/s2.scan2.php:87 views/packages/main/s3.build.php:461
+msgid "PHP Max Execution Time"
+msgstr "PHP Max Execution Time"
+
+#: views/packages/main/s2.scan2.php:81
+msgid "PHP Open Base Dir"
+msgstr "PHP Open Base Dir"
+
+#: views/packages/main/s2.scan1.php:447
+msgid "Good"
+msgstr "Dobré"
+
+#: views/parts/migration-clean-installation-files.php:58
+msgid "Security Notes"
+msgstr "Bezpečnostní poznámky"
+
+#: views/tools/diagnostics/inc.validator.php:34
+msgid "The utility will also shows how many files and directories you have in your system.  This process may take several minutes to run.  "
+msgstr "Nástroj také ukazuje kolik souborů a adresářů máte ve vašem systému. Proces může běžet několik minut."
+
+#: views/packages/main/s3.build.php:300
+msgid "Host Build Interrupt"
+msgstr "Přerušení sestavení hostingem"
+
+#: views/packages/main/s2.scan3.php:754
+msgid "No directories have been selected!"
+msgstr "Nebyly vybrány žádné adresáře!"
+
+#: views/packages/main/s2.scan3.php:727
+msgid "Directory applied filter set."
+msgstr "Sada adresářových filtrů."
+
+#: views/packages/main/s2.scan3.php:710
+msgid "Copy the paths above and apply them as needed on Step 1 &gt; Archive &gt; Files section."
+msgstr "Zkopírujte výše uvedené cesty a aplikujte je dle potřeby v kroku 1&gt; sekce &gt; souborů archivu ."
+
+#: views/packages/main/s2.scan3.php:696 views/packages/main/s2.scan3.php:705
+msgid "Click to Copy"
+msgstr "Kopírujte kliknutím"
+
+#: views/packages/main/s2.scan3.php:682
+msgid "[view json result report]"
+msgstr "[zobrazit výslednou zprávu json]"
+
+#: views/packages/main/s2.scan3.php:680
+msgid "Path filters will be skipped during the archive process when enabled."
+msgstr "Zapnutím budou  vynechány filtry cest v průběhu procesu archivování."
+
+#: views/packages/main/s2.scan3.php:657
+msgid "No custom file filters set."
+msgstr "Nejsou nastaveny žádné vlastní filtry souborů."
+
+#: views/packages/main/s2.scan3.php:635
+msgid "No custom directory filters set."
+msgstr "Nejsou nastaveny žádné vlastní filtry adresářů."
+
+#: views/packages/main/s2.scan3.php:429
+msgid "3. %1$s if this host supports the option."
+msgstr "3. %1$s pokud hosting podporuje tuto možnost."
+
+#: views/packages/main/s2.scan3.php:302
+msgid "No file/directory name warnings found."
+msgstr "Nenalezena žádná výstraha pro soubory/adresáře."
+
+#: views/packages/main/s2.scan3.php:256
+msgid "  Only consider using this filter if the package build is failing. Select files that are not important to your site or you can migrate manually."
+msgstr "Zvažte použití tohoto filtru, pokud se nedaří sestavit balíček. Vyberte soubory, které nejsou pro váš web důležité nebo je můžete migrovat ručně."
+
+#: views/packages/main/s2.scan3.php:255
+msgid "Unicode and special characters such as \"*?><:/\\|\", can be problematic on some hosts."
+msgstr "Speciální znaky a znaky Unicode jako \"*?><:/\\|\" mohou být pro některé hostingy problematické."
+
+#: views/packages/main/s2.scan3.php:111
+msgid "Consider trying multi-threaded support in "
+msgstr "Zvažte vyzkoušení vícevláknové podpory v"
+
+#: views/packages/main/s2.scan3.php:108
+msgid "See the FAQ link to adjust this hosts timeout limits: "
+msgstr "Použijte odkaz do FAQ k úpravě limitů pro timeout k tomuto hostingu: "
+
+#: views/packages/main/s2.scan3.php:107
+msgid "Apply the \"Quick Filters\" below or click the back button to apply on previous page."
+msgstr "Aplikujte \"Rychlé filtry\" níže nebo klikněte na tlačítko zpět k aplikování na předchozí stránce."
+
+#: views/packages/main/s2.scan3.php:94
+msgid "Compressing larger sites on <i>some budget hosts</i> may cause timeouts.  "
+msgstr "Komprimování větších webů na <i>levných hostinzích</i> může způsobit timeouty."
+
+#: views/packages/main/s2.scan2.php:76
+msgid "The minimum PHP version supported by Duplicator is 5.2.9. It is highly recommended to use PHP 5.3+ for improved stability.  For international language support please use PHP 7.0+."
+msgstr "Minimální verze PHP podporovaná Duplicator je 5.2.9. Velmi doporučujeme používat PHP 5.3 a novější kvůli stabilitě. Pro mezinárodní jazykovou podporu používejte PHP 7.0 a novější."
+
+#: views/packages/main/s2.scan2.php:9
+msgid "Show Diagnostics"
+msgstr "Ukázat diagnostiky"
+
+#: views/tools/diagnostics/inc.validator.php:77
+msgid "Note: Symlinks are not discoverable on Windows OS with PHP"
+msgstr "Poznámka: Symbolické odkazy nejsou zjistitelné na OS Windows s PHP "
+
+#: views/packages/main/s2.scan3.php:426
+msgid "2. Remove post revisions and stale data from tables.  Tables such as logs, statistical or other non-critical data should be cleared."
+msgstr "2. Odstraňte revize příspěvků a stažená data z tabulek. Tabulky a stejně tak logy, statistická nebo jiná nekritická data by měla být smazána."
+
+#: views/packages/main/s2.scan3.php:105
+msgid "Timeout Options"
+msgstr "Volby timeoutů"
+
+#: views/packages/main/s1.setup2.php:209 views/packages/main/s1.setup2.php:241
+msgid "Archive Only the Database"
+msgstr "Archivovat jen databázi"
+
+#: views/packages/main/s1.setup2.php:98
+msgid "Add Notes"
+msgstr "Přidat poznámky"
+
+#: views/packages/main/s1.setup2.php:286
+msgid "(file path)"
+msgstr "(souborová cesta)"
+
+#: views/packages/main/packages.php:244 views/packages/main/s1.setup2.php:210
+#: views/packages/main/s2.scan3.php:36 views/packages/main/s2.scan3.php:57
+msgid "Database Only"
+msgstr "Jen databáze"
+
+#: views/packages/main/s1.setup2.php:101
+msgid "Toggle a default name"
+msgstr "Přepnout výchozí název"
+
+#: views/packages/details/detail.php:364
+msgid "Database Mode"
+msgstr "Mód databáze"
+
+#: views/packages/details/detail.php:365
+msgid "Archive Database Only Enabled"
+msgstr "Archivovat jen databázi je povoleno"
+
+#: classes/ui/class.ui.notice.php:175
+#: views/parts/migration-almost-complete.php:33
+msgid "Take me there now!"
+msgstr "Chci tam hned!"
+
+#: classes/ui/class.ui.notice.php:162 views/parts/migration-message.php:52
+msgid "Remove Installation Files Now!"
+msgstr "Ihned odstranit instalační soubory!"
+
+#: classes/ui/class.ui.notice.php:163
+msgid "Optionally, Review Duplicator at WordPress.org..."
+msgstr "Když budete chtít napsat recenzi Duplicator na WordPress.org..."
+
+#: classes/ui/class.ui.notice.php:168 classes/ui/class.ui.notice.php:244
+#: views/parts/migration-almost-complete.php:17
+msgid "Migration Almost Complete!"
+msgstr "Migrace skoro kompletní!"
+
+#: classes/ui/class.ui.notice.php:156 views/parts/migration-message.php:17
+msgid "This site has been successfully migrated!"
+msgstr "Tento web byl úspěšně migrován!"
+
+#: views/settings/schedule.php:20
+msgid "Simply choose your storage location and when you want it to run."
+msgstr "Jednoduše vyberte úložný prostor a kdy to chcete spustit."
+
+#: views/settings/packages.php:422
+msgid "Save Package Settings"
+msgstr "Uložit nastavení balíčku"
+
+#: deactivation.php:230 deactivation.php:231
+msgid "Processing"
+msgstr "Zpracování"
+
+#: views/settings/packages.php:11
+msgid "Package Settings Saved"
+msgstr "Nastavení balíčku uloženo"
+
+#: views/settings/general.php:239
+msgid "Save General Settings"
+msgstr "Uložit základní nastavení"
+
+#: views/settings/general.php:8
+msgid "General Settings Saved"
+msgstr "Základní nastavení uloženo"
+
+#: views/settings/controller.php:24
+msgid "Schedules"
+msgstr "Plány"
+
+#: views/packages/details/transfer.php:25 views/settings/storage.php:143
+msgid "Custom Directory"
+msgstr "Vlastní adresář"
+
+#: views/packages/details/transfer.php:22 views/settings/storage.php:140
+msgid "Google Drive"
+msgstr "Google Drive"
+
+#: views/settings/storage.php:139
+msgid " Dropbox"
+msgstr " Dropbox"
+
+#: views/packages/details/transfer.php:20 views/settings/storage.php:138
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: views/settings/schedule.php:18
+msgid "Create robust schedules that automatically create packages while you sleep."
+msgstr "Vytvořte robustní automatizované plány, které automaticky vytvoří balíčky zatímco vy spíte."
+
+#: views/packages/details/transfer.php:15
+msgid "Transfer your packages to multiple locations  with Duplicator Pro"
+msgstr "Přeneste vaše balíčky do do více<br/> umístění s Duplicator Pro"
+
+#: views/settings/packages.php:382
+msgid "Visuals"
+msgstr "Vizuální"
+
+#: views/packages/main/s2.scan3.php:621
+#: views/tools/diagnostics/inc.settings.php:177
+msgid "Disabled"
+msgstr "Zakázáno"
+
+#: views/tools/diagnostics/inc.settings.php:176
+msgid "Suhosin Extension"
+msgstr "Rozšíření Suhosin"
+
+#: views/packages/main/s2.scan1.php:210
+msgid "This can take several minutes."
+msgstr "Tohle může pár minut trvat."
+
+#: views/packages/main/s2.scan1.php:209
+msgid "Keep this window open during the scan process."
+msgstr "Toho okno nechte otevřené v průběhu procesu skenování."
+
+#: views/packages/main/s1.setup1.php:241
+msgid "WordPress Root Path:"
+msgstr "Kořenová cesta WordPress:"
+
+#: views/packages/main/s1.setup2.php:567
+msgid "example: DatabaseUserName (value is optional)"
+msgstr "Příklad: DatabaseUserName (hodnota je volitelná)"
+
+#: views/packages/main/s1.setup2.php:563
+msgid "example: DatabaseName (value is optional)"
+msgstr "Příklad: DatabaseName (hodnota je volitelná)"
+
+#: views/packages/main/s1.setup2.php:559
+msgid "example: 3306 (value is optional)"
+msgstr "Příklad: 3306 (hodnota je volitelná)"
+
+#: views/packages/main/s1.setup2.php:555
+msgid "example: localhost (value is optional)"
+msgstr "Příklad: localhost (hodnota je volitelná)"
+
+#: views/tools/diagnostics/inc.settings.php:197
+msgid "Comments"
+msgstr "Komentáře"
+
+#: views/packages/main/s1.setup1.php:208
+msgid "MySQL version 5.0+ or better is required and the PHP MySQLi extension (note the trailing 'i') is also required.  Contact your server administrator and request that mysqli extension and MySQL Server 5.0+ be installed."
+msgstr "Je vyžadováno MySQL verze 5.0+ nebo lepší a rozšíření PHP MySQLi (nepřehlédněte to 'i'). Kontaktujte správce serveru a vyžádejte si instalaci rozšíření mysqli a MySQL server 5.0+."
+
+#: views/tools/diagnostics/inc.validator.php:17
+msgid "This will run the scan validation check.  This may take several minutes.  Do you want to Continue?"
+msgstr "Tímto se spustí sken kontroly validity. Může to trvat i několik minut. Chcete pokračovat?"
+
+#: views/tools/diagnostics/inc.validator.php:16
+msgid "Run Validator"
+msgstr "Spustit validátor"
+
+#: views/tools/diagnostics/inc.data.php:107
+msgid "Delete the option value"
+msgstr "Smazat předvolbu"
+
+#: views/tools/diagnostics/inc.data.php:89
+msgid "Removing Option, Please Wait..."
+msgstr "Odstraňuji možnost, čekejte..."
+
+#: views/tools/diagnostics/inc.data.php:88
+msgid "Delete the option value just selected?"
+msgstr "Smazat právě vybranou předvolbu?"
+
+#: views/tools/diagnostics/inc.data.php:87
+msgid "Delete Option?"
+msgstr "Smazat možnost"
+
+#: views/tools/diagnostics/inc.data.php:94
+msgid "Clear Build Cache?"
+msgstr "Smazat vyrovnávací paměť sestavení?"
+
+#: views/settings/packages.php:404
+msgid "By Day"
+msgstr "Po dni"
+
+#: views/settings/packages.php:397
+msgid "By Month"
+msgstr "Po měsíci"
+
+#: views/settings/packages.php:390
+msgid "By Year"
+msgstr "Po roce"
+
+#: views/packages/main/packages.php:373
+msgid "Removing Packages, Please Wait..."
+msgstr "Odstraňuji balíčky, čekejte..."
+
+#: views/packages/main/packages.php:371
+msgid "Delete Packages?"
+msgstr "Smazat balíčky?"
+
+#: views/packages/main/packages.php:365
+msgid "Selection Required"
+msgstr "Výběr vyžadován"
+
+#: views/packages/main/packages.php:359
+msgid "Bulk Action Required"
+msgstr "Hromadná akce vyžadována"
+
+#: views/packages/main/s2.scan3.php:386
+msgid "The database size represents only the included tables. The process for gathering the size uses the query SHOW TABLE STATUS.  The overall size of the database file can impact the final size of the package."
+msgstr "Údaj o velikosti databáze reprezentuje pouze zahrnuté tabulky. Proces k získání velikosti využívá dotaz SHOW TABLE STATUS. Celková velikost souboru databáze muže ovlivnit na celkovou velikost balíčku."
+
+#: views/packages/main/s2.scan3.php:385
+msgid "Database Size:"
+msgstr "Velikost databáze:"
+
+#: views/packages/main/s2.scan2.php:203
+msgid "This is not a multisite install so duplication will proceed without issue.  Duplicator does not officially support multisite. However, Duplicator Pro supports duplication of a full multisite network and also has the ability to install a multisite subsite as a standalone site."
+msgstr "Toto není instalace sítě webů, duplikace proběhne bez potíží. Duplicator oficiálně nepodporuje síť webů. Nicméně, Duplicator Pro podporuje duplikaci celé sítě webů a rovněž umí instalovat její dílčí weby jako samostatné weby."
+
+#: views/packages/main/s2.scan2.php:202
+msgid "Multisite: N/A"
+msgstr "Síť webů: Nedostupné"
+
+#: views/packages/main/s2.scan2.php:193
+msgid "Multisite: Unsupported"
+msgstr "Síť webů: Nepodporováno"
+
+#: views/packages/main/s2.scan2.php:98
+msgid "Get faster builds with Duplicator Pro with access to shell_exec zip."
+msgstr "Sestavujte balíčky rychleji s Duplicator Pro, který má přístup k shell_exec zipování,"
+
+#: views/packages/main/s1.setup2.php:610
+msgid "Reset Package Settings?"
+msgstr "Vynulovat nastavení balíčku?"
+
+#: classes/ui/class.ui.dialog.php:89 deactivation.php:130
+msgid "Cancel"
+msgstr "Storno"
+
+#: classes/ui/class.ui.dialog.php:88
+msgid "OK"
+msgstr "OK"
+
+#: classes/ui/class.ui.dialog.php:85
+msgid "Processing please wait..."
+msgstr "Zpracovávám, čekejte..."
+
+#. Description of the plugin
+msgid "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly."
+msgstr "Migrujte a zálohujte kopii vašich WordPress souborů a databáze. Rychle duplikujte a přemisťujte weby z jednoho umístění na jiné."
+
+#: views/tools/diagnostics/logging.php:210
+msgid "Top 20"
+msgstr "Horních 20"
+
+#: views/settings/packages.php:305
+msgid "enable only for large archives"
+msgstr "povolit pouze pro velké archivy"
+
+#: views/settings/packages.php:223
+msgid "A higher limit size will speed up the database build time, however it will use more memory. If your host has memory caps start off low."
+msgstr "Vyšší limit velikosti zkrátí čas sestavení databáze, nicméně využije víc paměti. Pokud má váš poskytovatel omezenou paměť, začněte s nižším."
+
+#: views/settings/packages.php:222
+msgid "PHP Query Limit Size"
+msgstr "Omezení velikosti PHP dotazu"
+
+#: views/settings/packages.php:162
+msgid "Custom Path"
+msgstr "Vlastní cesta:"
+
+#: views/settings/packages.php:154
+msgid "See the"
+msgstr "Podívejte se na"
+
+#: views/settings/packages.php:339
+msgid "recommended"
+msgstr "doporučeno"
+
+#: views/settings/packages.php:117
+msgid "Please contact the host or server administrator to enable this feature."
+msgstr "Kontaktujte svůj hosting nebo administrátora serveru, aby povolil tuto funkci."
+
+#: views/settings/packages.php:386
+msgid "Created Format"
+msgstr "Vytvořený formát"
+
+#: views/settings/about-info.php:117
+msgid "Stay in the Loop"
+msgstr "Zůstaňte v obraze"
+
+#: views/settings/about-info.php:127
+msgid "Subscribe to the Duplicator newsletter and stay on top of great ideas, tutorials, and better ways to improve your workflows"
+msgstr "Odebírejte zpravodaj pluginu Duplicator a mějte přehled o skvělých nápadech, návodech a způsobech jak si usnadnit život"
+
+#: views/settings/packages.php:96
+msgid "Mysqldump"
+msgstr "Mysqldump"
+
+#: views/settings/packages.php:412
+msgid "The UTC date format shown in the 'Created' column on the Packages screen."
+msgstr "Formát data zobrazovaného ve sloupci „Vytvořeno“ na obrazovce s balíčky."
+
+#: views/settings/packages.php:116
+msgid "This server does not support the PHP shell_exec or exec function which is required for mysqldump to run. "
+msgstr "Tento server nepodporuje PHP funkci shell_exec, která je vyžadována k běhu mysqldump."
+
+#. Author URI of the plugin
+msgid "http://www.snapcreek.com/duplicator/"
+msgstr "http://www.snapcreek.com/duplicator/"
+
+#. Author of the plugin
+msgid "Snap Creek"
+msgstr "Snap Creek"
+
+#: views/settings/general.php:121
+msgid "Enable debug options throughout user interface"
+msgstr "Zapnout možnosti odladění skrz uživatelské rozhraní"
+
+#: views/settings/general.php:118
+msgid "Debugging"
+msgstr "Odlaďování"
+
+#: views/settings/general.php:114
+msgid "Debug"
+msgstr "Odladit"
+
+#: views/tools/diagnostics/inc.validator.php:126
+msgid "Scanning Environment... This may take a few minutes."
+msgstr "Skenuji prostředí... to může pár minut trvat."
+
+#: views/tools/diagnostics/logging.php:186
+msgid "Consider our recommended"
+msgstr "Zvažte naše doporučení"
+
+#: views/settings/packages.php:129 views/settings/packages.php:155
+#: views/tools/diagnostics/logging.php:187
+msgid "host list"
+msgstr "seznam hostingů"
+
+#: views/settings/packages.php:128
+msgid "Please visit our recommended"
+msgstr "Navštivte námi doporučené"
+
+#: views/tools/diagnostics/logging.php:188
+msgid "if you’re unhappy with your current provider"
+msgstr "pokud jste nespokojen s vaším poskytovatelem"
+
+#: views/tools/diagnostics/inc.validator.php:43
+#: views/tools/diagnostics/inc.validator.php:157
+msgid "Run Scan Integrity Validation"
+msgstr "Spustit sken ověření integrity"
+
+#: views/tools/diagnostics/inc.validator.php:35
+msgid "If there is a recursive loop on your system then the process has a built in check to stop after a large set of files and directories have been scanned.  "
+msgstr "Pokud je na vašem systému rekurzivní smyčka, má proces vestavěnou kontrolu k zastavení poté, co byl naskenován velký objem souborů a složek."
+
+#: views/tools/diagnostics/inc.validator.php:33
+msgid "This utility will help to find unreadable files and sys-links in your environment  that can lead to issues during the scan process.  "
+msgstr "Tato pomůcka pomůže najít nečitelné soubory a systémové odkazy ve vašem prostředí, které by mohly vést k potížím během procesu skenování."
+
+#: views/tools/diagnostics/inc.validator.php:28
+msgid "Scan Validator"
+msgstr "Validátor skenu"
+
+#: views/tools/diagnostics/inc.settings.php:132
+msgid "Process"
+msgstr "Proces"
+
+#: views/packages/main/s2.scan1.php:252
+msgid "Yes.  Continue with the build process!"
+msgstr "Ano. Pokračovat v procesu sestavení!"
+
+#: views/packages/main/s1.setup1.php:183
+msgid "If Duplicator does not have enough permissions then you will need to manually create the paths above. &nbsp; "
+msgstr "Pokud Duplicator nemá dostatečná oprávnění, pak budete muset ručně vytvořit výše uvedené cesty. &nbsp;  "
+
+#: views/settings/about-info.php:60
+msgid "Rate Duplicator"
+msgstr "Hodnotit Duplicator"
+
+#: views/packages/main/s1.setup2.php:484
+msgid "All values in this section are"
+msgstr "Všechny hodnoty v tomto výběru jsou"
+
+#: views/packages/main/s1.setup2.php:484
+msgid "optional"
+msgstr "volitelné"
+
+#: views/packages/main/s2.scan1.php:426
+msgid "1. Go back and create a root path directory filter to validate the site is scan-able."
+msgstr "1. Vraťte se o krok zpět a vytvořte filtr cesty ke kořenové složce k ověření, že je web skenovatelný. "
+
+#: views/packages/main/s2.scan1.php:427
+msgid "2. Continue to add/remove filters to isolate which path is causing issues."
+msgstr "2. Pokračujte přidáním/odebráním filtrů k izolování cesty, která působí potíže."
+
+#: views/packages/main/s2.scan1.php:428
+msgid "3. This message will go away once the correct filters are applied."
+msgstr "3. Tato zpráva zmizí, jakmile aplikujete správné filtry."
+
+#: views/packages/main/s2.scan1.php:431
+msgid "- On some budget hosts scanning over 30k files can lead to timeout/gateway issues. Consider scanning only your main WordPress site and avoid trying to backup other external directories."
+msgstr "- U některých hostingů může skenování souborů nad 30kb vést k potížím s prodlevou/bránou. Zvažte skenování pouze vašeho hlavního WordPress webu a předejděte tak pokusům o zálohu jiných externích složek."
+
+#: views/packages/main/s2.scan1.php:425
+msgid "Unable to perform a full scan, please try the following actions:"
+msgstr "Nemohu provést kompletní sken, vyzkoušejte následující akce:"
+
+#: views/packages/main/s2.scan1.php:430
+msgid "Common Issues:"
+msgstr "Běžné potíže:"
+
+#: views/packages/main/s2.scan1.php:432
+msgid "- Symbolic link recursion can cause timeouts.  Ask your server admin if any are present in the scan path.  If they are add the full path as a filter and try running the scan again."
+msgstr "- rekurze symbolických odkazů může způsobovat prodlevy. Zeptejte se správce serveru, jestli jsou nějaké ve skenované cestě. Pokud jsou, přidejte úplnou cestu jako filtr a zkuste znovu spustit sken."
+
+#: views/settings/packages.php:130
+msgid "for reliable access to mysqldump"
+msgstr "pro spolehlivý přístup k mysqldump"
+
+#: views/settings/packages.php:123 views/tools/diagnostics/logging.php:181
+msgid "Duplicator recommends going with the high performance pro plan or better from our recommended list"
+msgstr "Duplicator doporučuje plán high performance pro nebo lepší z našeho seznamu doporučených"
+
+#: views/settings/packages.php:122 views/tools/diagnostics/logging.php:180
+msgid "Host Recommendation:"
+msgstr "Doporučený hosting:"
+
+#: views/packages/main/s2.scan3.php:431
+msgid "lower_case_table_names"
+msgstr "lower_case_table_names"
+
+#: views/packages/main/s2.scan3.php:424
+msgid "1. Run a %1$s on the table to improve the overall size and performance."
+msgstr "1. Spusťte %1$s proti tabulce k vylepšení celkové velikosti a výkonu."
+
+#: views/packages/main/s2.scan3.php:432
+msgid "4. For table name case sensitivity issues either rename the table with lower case characters or be prepared to work with the %1$s system variable setting."
+msgstr "4. Kvůli potížím s citlivostí na velikost písmen přejmenujte také tabulku na malá písmena, nebo se připravte na práci s %1$s nastavením systémové proměnné."
+
+#: views/packages/main/s2.scan3.php:99 views/packages/main/s2.scan3.php:396
+#: views/packages/main/s3.build.php:329 views/packages/screen.php:64
+msgid "Overview"
+msgstr "Přehled"
+
+#: views/packages/main/s1.setup1.php:233
+msgid "None of the reserved files where found from a previous install.  This means you are clear to create a new package."
+msgstr "Nebyly nalezeny žádné vyhrazené soubory z předchozí instalace. To znamená, že můžete v klidu vytvořit nový balíček."
+
+#: views/settings/gopro.php:340
+msgid "Plus Many Other Features..."
+msgstr "A mnoho dalších funkcí..."
+
+#: views/settings/gopro.php:177
+msgid "cPanel Database API"
+msgstr "cPanel Database API"
+
+#: views/packages/main/packages.php:302
+msgid "Error Processing"
+msgstr "Zpracování chyb"
+
+#: views/packages/main/packages.php:285
+msgid "Package Details"
+msgstr "Detaily balíčku"
+
+#: views/packages/main/s1.setup2.php:447
+msgid "no_field_options"
+msgstr "no_field_options"
+
+#: views/packages/main/s1.setup2.php:443
+msgid "no_key_options"
+msgstr "no_key_options"
+
+#: views/packages/main/s1.setup2.php:439
+msgid "no_table_options"
+msgstr "no_table_options"
+
+#: views/packages/main/s1.setup2.php:435
+msgid "mysql40"
+msgstr "mysql40"
+
+#: views/packages/main/s1.setup2.php:414
+msgid "Compatibility Mode:"
+msgstr "Režim kompatibility:"
+
+#: views/packages/main/s1.setup2.php:412
+msgid "Compatibility Mode"
+msgstr "Režim kompatibility"
+
+#: views/packages/main/s1.setup2.php:341
+msgid "Enable Table Filters:"
+msgstr "Povolit filtry tabulky:"
+
+#: views/packages/main/controller.php:63 views/packages/main/controller.php:67
+#: views/packages/main/controller.php:71
+msgid "Packages &raquo; New"
+msgstr "Balíčky &raquo; Nové"
+
+#: views/packages/main/controller.php:59
+msgid "Packages &raquo; All"
+msgstr "Balíčky &raquo; Vše"
+
+#: views/packages/main/s1.setup2.php:452
+msgid "This option is only available with mysqldump mode."
+msgstr "Tato možnost je dostupná pouze v režimu mysqldump."
+
+#: views/packages/details/transfer.php:39 views/settings/storage.php:155
+msgid "Learn More"
+msgstr "Dozvědět se víc"
+
+#: views/packages/details/detail.php:493 views/packages/details/detail.php:497
+#: views/packages/details/detail.php:501
+msgid "- not set -"
+msgstr "- nenastaveno -"
+
+#: views/packages/details/detail.php:426 views/packages/main/s2.scan3.php:610
+msgid "MySQL Compatibility Mode Enabled"
+msgstr "Režim kompatibility MySQL povolen"
+
+#: views/packages/main/s1.setup2.php:247
+msgid "File Filters:"
+msgstr "Filtry souborů:"
+
+#: views/packages/details/detail.php:383 views/packages/main/s2.scan3.php:639
+msgid "Extensions"
+msgstr "Přípony"
+
+#: views/packages/details/detail.php:377 views/packages/details/detail.php:387
+#: views/packages/details/detail.php:396 views/packages/details/detail.php:443
+msgid "- no filters -"
+msgstr "- žádné filtry -"
+
+#: views/packages/details/detail.php:369 views/packages/details/detail.php:433
+#: views/packages/main/s1.setup2.php:229 views/packages/main/s1.setup2.php:332
+msgid "Filters"
+msgstr "Filtry"
+
+#: views/settings/packages.php:246
+msgid "ZipArchive"
+msgstr "ZipArchive"
+
+#: views/packages/details/detail.php:357
+msgid "Build Mode"
+msgstr "Režim sestavení"
+
+#: views/packages/details/detail.php:353
+msgid "FILES"
+msgstr "SOUBORY"
+
+#: views/packages/details/detail.php:327 views/packages/main/s1.setup2.php:175
+msgid "Additional Storage:"
+msgstr "Dodatečné úložiště:"
+
+#: views/packages/details/detail.php:160
+msgid "in-complete"
+msgstr "nedokončené"
+
+#: views/packages/details/detail.php:160
+msgid "completed"
+msgstr "dokončené"
+
+#: views/packages/details/detail.php:140
+msgid "PHP"
+msgstr "PHP"
+
+#: views/packages/details/detail.php:159
+msgid "Status"
+msgstr "Stav"
+
+#: views/packages/details/detail.php:156
+msgid "error running"
+msgstr "chyba spuštění"
+
+#: views/packages/details/detail.php:155
+msgid "Runtime"
+msgstr "Čas spuštění"
+
+#: views/packages/details/detail.php:144
+msgid "Mysql"
+msgstr "Mysql"
+
+#: views/packages/details/detail.php:137 views/packages/details/detail.php:141
+#: views/packages/details/detail.php:146 views/packages/details/detail.php:147
+#: views/packages/details/detail.php:164
+msgid "- unknown -"
+msgstr "- neznámý -"
+
+#: views/packages/details/detail.php:121
+msgid "- no notes -"
+msgstr "- žádné poznámky -"
+
+#: views/packages/details/detail.php:112
+msgid "Full Name"
+msgstr "Celé jméno"
+
+#: views/packages/details/detail.php:104
+msgid "ID"
+msgstr "ID"
+
+#: views/packages/details/detail.php:78
+msgid "Invalid Package ID request.  Please try again!"
+msgstr "Neplatný požadavek ID balíčku. Zkuste to znovu!"
+
+#: views/packages/details/controller.php:50
+msgid "Transfer"
+msgstr "Přenos"
+
+#: views/packages/details/controller.php:40
+msgid " and "
+msgstr "a"
+
+#: views/packages/details/controller.php:40
+msgid "For help visit the "
+msgstr "Pro pomoc navštivte"
+
+#: views/packages/details/controller.php:39
+msgid " for details."
+msgstr "pro detaily."
+
+#: views/packages/details/controller.php:39
+msgid "This package contains an error.  Please review the "
+msgstr "Balíček obsahuje chybu. Zkontrolujte"
+
+#: views/packages/details/controller.php:20
+msgid "resources page"
+msgstr "stránka zdrojů"
+
+#: views/packages/details/controller.php:13
+msgid "package log"
+msgstr "žurnál balíčku"
+
+#: views/settings/gopro.php:228
+msgid "Custom Search & Replace"
+msgstr "Vlastní Najít & Nahradit"
+
+#: views/packages/main/s2.scan3.php:620
+msgid "File Filters"
+msgstr "Filtry souborů"
+
+#: views/settings/gopro.php:223
+msgid "Email Alerts"
+msgstr "Oznámení e-mailem"
+
+#: views/settings/gopro.php:140
+msgid "Google Drive Storage"
+msgstr "Úložiště Google Drive"
+
+#: views/settings/gopro.php:132
+msgid "Dropbox Storage "
+msgstr "Úložiště Dropbox"
+
+#: views/settings/gopro.php:124
+msgid "Amazon S3 Storage"
+msgstr "Úložiště Amazon S3"
+
+#: views/packages/details/controller.php:16
+msgid "FAQ"
+msgstr "Nejčastější dotazy"
+
+#. Plugin Name of the plugin
+msgid "Duplicator"
+msgstr "Duplicator"
+
+#: views/tools/diagnostics/logging.php:203
+msgid "Auto Refresh"
+msgstr "Auto obnovení"
+
+#: views/tools/diagnostics/logging.php:200
+msgid "Refresh"
+msgstr "Obnovit"
+
+#: views/tools/diagnostics/logging.php:193
+#: views/tools/diagnostics/logging.php:198
+msgid "Options"
+msgstr "Možnosti"
+
+#: views/tools/diagnostics/logging.php:171
+msgid "The process that PHP runs under does not have enough permissions to create files.  Please contact your hosting provider for more details"
+msgstr "PHP podproces nemá dostatečná oprávnění k vytváření souborů. Pro více informací kontaktujte vašeho poskytovatele hostingu."
+
+#: views/tools/diagnostics/logging.php:170
+msgid "The snapshots directory does not have the correct permissions to write files.  Try setting the permissions to 755"
+msgstr "Složka pro snímky nemá správná oprávnění pro zápis souborů. Zkuste nastavit oprávnění na 755"
+
+#: views/tools/diagnostics/logging.php:169
+msgid "The web server does not support returning .log file extentions"
+msgstr "Webový server nepodporuje vracení přípon .log"
+
+#: views/tools/diagnostics/logging.php:168
+msgid "Reasons for log file not showing"
+msgstr "Důvody, proč se nemusí zobrazit soubor s historií (Log)"
+
+#: views/tools/diagnostics/logging.php:167
+msgid "Try to create a package, since no log files were found in the snapshots directory with the extension *.log"
+msgstr "Zkuste vytvořit balíček, pokud se ve složce se snímky nenachází žádné soubory historie s příponou *.log"
+
+#: views/tools/diagnostics/logging.php:166
+msgid "Log file not found or unreadable"
+msgstr "Soubor s historií nenalezen nebo nečitelný"
+
+#: views/tools/diagnostics/inc.phpinfo.php:26
+msgid "PHP Information"
+msgstr "Informace o PHP"
+
+#: views/tools/diagnostics/inc.data.php:53
+msgid "Options Values"
+msgstr "Převolby"
+
+#: views/tools/diagnostics/inc.data.php:11
+msgid "Stored Data"
+msgstr "Uložená data"
+
+#: views/tools/diagnostics/inc.settings.php:230
+msgid "On shared hosts check your control panel for the 'TRUE' disk space quota value."
+msgstr "U sdílených hostingů ověřte na vašem ovládacím panelu hodnotu 'TRUE' pro kvótu diskového prostoru."
+
+#: views/tools/diagnostics/inc.settings.php:229
+msgid "Note: This value is the physical servers hard-drive allocation."
+msgstr "Pozn.: Tato hodnota znamená alokaci pevného disku fyzických serverů."
+
+#: views/tools/diagnostics/inc.settings.php:220
+msgid "Free space"
+msgstr "Volné místo"
+
+#: views/tools/diagnostics/inc.settings.php:217
+msgid "Server Disk"
+msgstr "Disk serveru"
+
+#: views/tools/diagnostics/inc.settings.php:213
+msgid "msyqldump Path"
+msgstr "Cesta mysqldump"
+
+#: views/tools/diagnostics/inc.settings.php:209
+msgid "Max Allowed Packets"
+msgstr "Max. povolených paketů"
+
+#: views/tools/diagnostics/inc.settings.php:205
+msgid "Wait Timeout"
+msgstr "Časový limit pro čekání"
+
+#: views/tools/diagnostics/inc.settings.php:49
+msgid "Timezone"
+msgstr "Časové pásmo"
+
+#: views/packages/main/s2.scan1.php:172 views/packages/main/s2.scan1.php:276
+msgid "Back"
+msgstr "Zpět"
+
+#: views/packages/main/s1.setup2.php:601
+msgid "Next"
+msgstr "Další"
+
+#: views/tools/diagnostics/inc.settings.php:172
+msgid "Shell Exec Zip"
+msgstr "Shell Exec Zip"
+
+#: views/tools/diagnostics/inc.settings.php:169
+#: views/tools/diagnostics/inc.settings.php:173
+msgid "Not Supported"
+msgstr "Není podporován"
+
+#: views/tools/diagnostics/inc.settings.php:169
+#: views/tools/diagnostics/inc.settings.php:173
+msgid "Is Supported"
+msgstr "Je podporován"
+
+#: views/tools/diagnostics/inc.settings.php:168
+msgid "Shell Exec"
+msgstr "Shell Exec"
+
+#: views/tools/diagnostics/inc.settings.php:149
+msgid "Memory In Use"
+msgstr "Využitá paměť"
+
+#: views/tools/diagnostics/inc.settings.php:145
+msgid "Memory Limit"
+msgstr "Limit paměti"
+
+#: views/tools/diagnostics/inc.settings.php:140
+msgid "Off"
+msgstr "Vypnuto"
+
+#: views/tools/diagnostics/inc.settings.php:140
+msgid "On"
+msgstr "Zapnuto"
+
+#: views/tools/diagnostics/inc.settings.php:136
+msgid "Safe Mode"
+msgstr "Safe Mode"
+
+#: views/tools/diagnostics/inc.settings.php:113
+msgid "Max"
+msgstr "Max."
+
+#: views/tools/diagnostics/inc.settings.php:112
+msgid "Memory Limit "
+msgstr "Limit paměti"
+
+#: views/packages/main/s1.setup2.php:570
+#: views/tools/diagnostics/inc.settings.php:108
+#: views/tools/diagnostics/inc.settings.php:201
+msgid "Charset"
+msgstr "Sada znaků"
+
+#: views/tools/diagnostics/inc.settings.php:104
+msgid "Language"
+msgstr "Jazyk"
+
+#: views/tools/diagnostics/inc.settings.php:93
+msgid "Client IP"
+msgstr "IP klienta"
+
+#: views/tools/diagnostics/inc.settings.php:80
+msgid "Server IP"
+msgstr "IP serveru"
+
+#: views/tools/diagnostics/inc.settings.php:76
+msgid "Loaded PHP INI"
+msgstr "Nahráno PHP INI"
+
+#: views/tools/diagnostics/inc.settings.php:72
+msgid "Plugins Path"
+msgstr "Cesta pluginů"
+
+#: views/tools/diagnostics/inc.settings.php:68
+msgid "ABSPATH"
+msgstr "ABSCESTA"
+
+#: views/packages/main/s2.scan3.php:7
+#: views/tools/diagnostics/inc.settings.php:64
+msgid "Root Path"
+msgstr "Cesta ke kořenové složce"
+
+#: views/tools/diagnostics/inc.settings.php:53
+msgid "Server Time"
+msgstr "Čas serveru"
+
+#: views/tools/diagnostics/inc.settings.php:45
+msgid "Operating System"
+msgstr "Operační systrém"
+
+#: views/tools/diagnostics/inc.settings.php:38
+msgid "Duplicator Version"
+msgstr "Verze pluginu Duplicator"
+
+#: views/tools/diagnostics/inc.settings.php:29
+msgid "Server Settings"
+msgstr "Nastavení serveru"
+
+#: views/tools/diagnostics/information.php:68
+msgid "Active package settings reset."
+msgstr "Nulování nastavení aktivního balíčku."
+
+#: views/tools/diagnostics/information.php:65
+msgid "View state settings reset."
+msgstr "Nulování nastavení stavu zobrazení."
+
+#: views/tools/diagnostics/information.php:62
+msgid "Plugin settings reset."
+msgstr "Nulování nastavení pluginu."
+
+#: views/tools/diagnostics/inc.settings.php:5
+#: views/tools/diagnostics/inc.settings.php:6
+msgid "unknow"
+msgstr "neznámý"
+
+#: views/tools/diagnostics/inc.data.php:95
+msgid "This process will remove all build cache files.  Be sure no packages are currently building or else they will be cancelled."
+msgstr "Tento proces odstraní všechny soubory z cache sestavení. Ujistěte se, že zrovna neprobíhá sestavování balíčků, bylo by tím zrušeno."
+
+#: views/tools/diagnostics/inc.data.php:48
+msgid "Removes all build data from:"
+msgstr "Odstraní všechna data sestavení z:"
+
+#: views/tools/diagnostics/inc.data.php:45
+msgid "Clear Build Cache"
+msgstr "Vyčistit cache sestavení"
+
+#: views/tools/diagnostics/inc.data.php:25
+msgid "Removes all reserved installer files."
+msgstr "Odstraní všechny vyhrazené soubory instalátoru."
+
+#: views/tools/diagnostics/inc.data.php:16
+msgid "Data Cleanup"
+msgstr "Odstranění dat"
+
+#: views/tools/diagnostics/information.php:43
+msgid "Build cache removed."
+msgstr "Cache sestavení byla odstraněna."
+
+#: views/settings/gopro.php:63
+msgid "Professional"
+msgstr "Profesionální"
+
+#: views/settings/gopro.php:62
+msgid "Free"
+msgstr "Zdarma"
+
+#: views/settings/general.php:214
+msgid "Enable User Role Editor Plugin Integration"
+msgstr "Povolit integraci editoru uživ. rolí"
+
+#: views/settings/general.php:211
+msgid "Custom Roles"
+msgstr "Vlastní role"
+
+#: views/settings/packages.php:149
+msgid "Mysqldump was not found at its default location or the location provided.  Please enter a custom path to a valid location where mysqldump can run.  If the problem persist contact your host or server administrator.  "
+msgstr "Mysqldump nebyl nalezen v běžném nebo uvedeném umístění. Prosím, zadejte cestu k platnému umístění, kde může mysqldump běžet. Pokud problém přetrvá, kontaktujte svého správce serveru."
+
+#: views/settings/packages.php:212
+msgid "Query Limit Size"
+msgstr "Limit velikosti fronty"
+
+#: views/settings/packages.php:308
+msgid "This will attempt to keep a network connection established for large archives."
+msgstr "Tímto lze zkusit udržet navázané síťové připojení pro velké archivy."
+
+#: views/settings/packages.php:304
+msgid "Attempt Network Keep Alive"
+msgstr "Pokusit se udržet síť připojenou"
+
+#: views/settings/packages.php:301
+msgid "Archive Flush"
+msgstr "Vyprázdnit archiv"
+
+#: views/settings/storage.php:103
+msgid "Disable .htaccess file in storage directory"
+msgstr "Zakázat soubor .htaccess v adresáři úložiště"
+
+#: views/settings/general.php:107
+msgid "Delete Entire Storage Directory"
+msgstr "Smazat celý adresář úložiště"
+
+#: views/settings/general.php:103
+msgid "Delete Plugin Settings"
+msgstr "Smazat nastavení pluginu"
+
+#: views/settings/general.php:99
+msgid "Uninstall"
+msgstr "Odinstalovat"
+
+#: views/settings/general.php:84
+msgid "Plugin"
+msgstr "Plugin"
+
+#: views/packages/details/detail.php:90 views/settings/controller.php:22
+#: views/tools/controller.php:22 views/tools/diagnostics/inc.settings.php:35
+msgid "General"
+msgstr "Obecné"
+
+#: views/packages/main/s3.build.php:375
+msgid "Build Folder:"
+msgstr "Složka sestavení:"
+
+#: views/packages/main/s2.scan1.php:445 views/packages/main/s2.scan3.php:58
+#: views/packages/main/s2.scan3.php:70 views/packages/main/s3.build.php:371
+msgid "Notice"
+msgstr "Upozornění"
+
+#: views/packages/main/s3.build.php:162
+msgid "Build Status"
+msgstr "Stav sestavení"
+
+#: views/packages/main/s3.build.php:154
+msgid "Building Package"
+msgstr "Sestavování balíčku"
+
+#: views/packages/main/s2.scan3.php:985
+msgid "Unable to report on database stats"
+msgstr "Nelze vytvořit report pro statistiky DB"
+
+#: views/packages/main/s2.scan3.php:959
+msgid "Unable to report on any tables"
+msgstr "Nelze vytvořit report pro žádnou tabulku"
+
+#: views/packages/main/s2.scan1.php:277
+msgid "Rescan"
+msgstr "Přeskenovat"
+
+#: views/packages/main/s2.scan1.php:162 views/packages/main/s2.scan1.php:221
+#: views/packages/main/s3.build.php:498
+msgid "Error Message:"
+msgstr "Chybová hláška:"
+
+#: views/packages/main/s2.scan1.php:218 views/packages/main/s3.build.php:481
+msgid "Server Status:"
+msgstr "Stav serveru:"
+
+#: views/packages/main/s2.scan1.php:160 views/packages/main/s2.scan1.php:216
+msgid "Please try again!"
+msgstr "Prosím, zkuste to znovu!"
+
+#: views/packages/main/s2.scan1.php:215
+msgid "Scan Error"
+msgstr "Chyba skenu"
+
+#: views/packages/main/s2.scan1.php:258
+msgid "Scan checks are not required to pass, however they could cause issues on some systems."
+msgstr "Kontroly skenu nemusí být splněny bez závad, ale mohou představovat problém pro některé systémy."
+
+#: views/packages/main/s2.scan3.php:604
+msgid "Build Mode:"
+msgstr "Mód sestavení:"
+
+#: views/packages/main/s2.scan3.php:602
+msgid "Host:"
+msgstr "Hosting:"
+
+#: views/packages/main/s2.scan3.php:601
+msgid "Name:"
+msgstr "Název:"
+
+#: views/packages/main/s2.scan3.php:403
+msgid "Records"
+msgstr "Záznamy"
+
+#: views/packages/details/detail.php:439 views/packages/main/s2.scan3.php:402
+msgid "Tables"
+msgstr "Tabulky"
+
+#: views/packages/main/s2.scan3.php:645
+msgid "No file extension filters have been set."
+msgstr "Žádné filtry přípon souborů nebyly nastaveny."
+
+#: views/packages/main/s2.scan3.php:128
+msgid "Large Files"
+msgstr "Velké soubory"
+
+#: views/packages/main/s2.scan3.php:250 views/packages/main/s2.scan3.php:264
+msgid "Name Checks"
+msgstr "Kontroly názvů"
+
+#: views/packages/main/s2.scan3.php:92
+msgid "Directory Count"
+msgstr "Počet adresářů"
+
+#: views/packages/main/s2.scan3.php:91
+msgid "File Count"
+msgstr "Počet souborů"
+
+#: views/packages/main/s2.scan3.php:39 views/packages/main/s2.scan3.php:379
+#: views/packages/main/s2.scan3.php:621 views/settings/general.php:128
+#: views/tools/diagnostics/inc.settings.php:177
+msgid "Enabled"
+msgstr "Povoleno"
+
+#: views/packages/main/s2.scan2.php:139
+msgid "Core Files"
+msgstr "Soubory jádra"
+
+#: views/packages/main/s2.scan2.php:134
+msgid "WordPress Version"
+msgstr "Verze WordPress"
+
+#: views/packages/details/detail.php:136 views/packages/main/s2.scan2.php:128
+msgid "WordPress"
+msgstr "WordPress"
+
+#: views/tools/diagnostics/inc.settings.php:153
+#: views/tools/diagnostics/inc.settings.php:162
+msgid "Max Execution Time"
+msgstr "Max. čas provádění"
+
+#: views/packages/details/detail.php:427 views/packages/main/s1.setup2.php:420
+#: views/packages/main/s2.scan2.php:83 views/packages/main/s2.scan2.php:94
+#: views/packages/main/s2.scan2.php:100 views/packages/main/s2.scan3.php:611
+msgid "details"
+msgstr "detaily"
+
+#: views/packages/main/s2.scan2.php:82
+msgid "Issues might occur when [open_basedir] is enabled. Work with your server admin to disable this value in the php.ini file if you’re having issues building a package."
+msgstr "Pokud je [open_basedir] povolen, mohou nastat problémy. Zakažte tuto hodnotu v php.ini ve spolupráci se správcem vašeho serveru, pokud se nedaří sestavit balíček."
+
+#: views/packages/main/s2.scan2.php:91
+msgid "Note: Timeouts can also be set at the web server layer, so if the PHP max timeout passes and you still see a build timeout messages, then your web server could be killing the process.   If you are on a budget host and limited on processing time, consider using the database or file filters to shrink the size of your overall package.   However use caution as excluding the wrong resources can cause your install to not work properly."
+msgstr "Pozn.: Časové limity mohou být nastaveny na úrovni web serveru, pokud tedy PHP max timeout projde a stále vidíte hlášení o přerušení sestavení, pak může proces ukončovat váš web server. Pokud máte limitovaný čas na zpracování, zvažte použití databázových nebo souborových filtrů ke snížení objemu celého balíčku. Nicméně buďte opatrní, nevhodným vyřazením některých zdrojů můžete způsobit nesprávnou funkci instalace."
+
+#: views/packages/main/s2.scan2.php:70
+#: views/tools/diagnostics/inc.settings.php:57
+msgid "Web Server"
+msgstr "Webový server"
+
+#: views/packages/main/s2.scan1.php:230
+msgid "Scan Complete"
+msgstr "Sken kompletní"
+
+#: views/packages/main/s2.scan1.php:208 views/packages/main/s3.build.php:156
+msgid "Please Wait..."
+msgstr "Prosím, čekejte..."
+
+#: views/packages/main/s2.scan1.php:206
+msgid "Scanning Site"
+msgstr "Skenuji web"
+
+#: views/packages/main/s1.setup2.php:611
+msgid "This will clear and reset all of the current package settings.  Would you like to continue?"
+msgstr "Toto vyčistí a vynuluje všechna současná nastavení balíčku. Chcete pokračovat?"
+
+#: views/packages/main/s1.setup2.php:600
+msgid "Reset"
+msgstr "Vynulovat"
+
+#: views/settings/gopro.php:172
+msgid "Enhanced Options"
+msgstr "Pokročilé možnosti"
+
+#: views/packages/main/s1.setup2.php:558
+msgid "Host Port"
+msgstr "Port hosta"
+
+#: views/packages/details/detail.php:492 views/packages/main/s1.setup2.php:554
+msgid "Host"
+msgstr "Hosting"
+
+#: views/packages/details/detail.php:489 views/packages/main/s1.setup2.php:551
+msgid " MySQL Server"
+msgstr "MySQL Server"
+
+#: views/packages/main/s1.setup2.php:342
+msgid "Checked tables will not be added to the database script.  Excluding certain tables can possibly cause your site or plugins to not work correctly after install!"
+msgstr "Zaškrtnuté tabulky nebudou přidány to databázového skriptu. Vyřazením některých tabulek můžete způsobit, že váš web nebo pluginy nebudou po instalaci fungovat správně!"
+
+#: views/packages/main/s1.setup2.php:350
+msgid "Exclude All"
+msgstr "Vyřadit vše"
+
+#: views/packages/main/s1.setup2.php:349
+msgid "Include All"
+msgstr "Zahrnout vše"
+
+#: views/packages/main/s1.setup2.php:339
+msgid "Enable Table Filters"
+msgstr "Povolit tabulkové filtry"
+
+#: views/packages/main/s2.scan1.php:260
+msgid "Please review the details for each section by clicking on the detail title."
+msgstr "Překontrolujte si detaily pro každou sekci kliknutím na nápis detaily."
+
+#: views/packages/main/s2.scan1.php:248
+msgid "A notice status has been detected, are you sure you want to continue?"
+msgstr "Byl detekován status výstrahy, opravdu chcete pokračovat?"
+
+#: views/packages/main/s2.scan3.php:423
+msgid "repair and optimization"
+msgstr "oprava a optimalizace"
+
+#: views/packages/main/s2.scan2.php:71
+msgid "Supported web servers: "
+msgstr "Podporované web servery:"
+
+#: views/packages/main/packages.php:93
+msgid "Delete"
+msgstr "Smazat"
+
+#: views/packages/details/detail.php:163 views/packages/details/detail.php:500
+#: views/packages/main/s1.setup2.php:566
+#: views/tools/diagnostics/inc.settings.php:128
+msgid "User"
+msgstr "Uživatel"
+
+#: views/packages/details/detail.php:277 views/packages/details/detail.php:416
+#: views/packages/main/s1.setup2.php:133 views/settings/license.php:12
+msgid "Type"
+msgstr "Typ"
+
+#: views/packages/main/s1.setup2.php:273
+msgid "archive"
+msgstr "archiv"
+
+#: views/packages/main/s1.setup2.php:272
+msgid "media"
+msgstr "média"
+
+#: views/packages/main/s1.setup2.php:269
+msgid "File extensions"
+msgstr "Přípony souborů"
+
+#: views/packages/main/s1.setup2.php:263 views/packages/main/s1.setup2.php:274
+#: views/packages/main/s1.setup2.php:287
+msgid "(clear)"
+msgstr "(čisté)"
+
+#: views/packages/main/s1.setup2.php:262
+msgid "cache"
+msgstr "cache"
+
+#: views/packages/main/s1.setup2.php:261
+msgid "wp-uploads"
+msgstr "wp-uploads"
+
+#: views/packages/main/s1.setup2.php:260
+msgid "root path"
+msgstr "cesta ke kořenové složce"
+
+#: views/packages/details/detail.php:373 views/packages/main/s2.scan3.php:628
+#: views/packages/main/s2.scan3.php:693
+msgid "Directories"
+msgstr "Adresáře"
+
+#: views/packages/main/s1.setup2.php:253 views/packages/main/s1.setup2.php:268
+#: views/packages/main/s1.setup2.php:279
+msgid "Separate all filters by semicolon"
+msgstr "Všechny filtry oddělte středníkem"
+
+#: views/packages/main/s1.setup2.php:245
+msgid "Enable File Filters"
+msgstr "Povolit souborové filtry"
+
+#: views/packages/details/detail.php:496 views/packages/main/s1.setup2.php:223
+#: views/packages/main/s1.setup2.php:562 views/packages/main/s2.scan3.php:373
+#: views/packages/main/s2.scan3.php:599 views/settings/packages.php:88
+msgid "Database"
+msgstr "Databáze"
+
+#: views/packages/details/detail.php:167 views/packages/details/detail.php:392
+#: views/packages/main/s1.setup2.php:222 views/packages/main/s2.scan3.php:29
+#: views/packages/main/s2.scan3.php:650 views/packages/main/s2.scan3.php:702
+msgid "Files"
+msgstr "Soubory"
+
+#: views/packages/main/s1.setup2.php:205
+msgid "Database filter enabled"
+msgstr "Databázový filtr povolen"
+
+#: views/packages/main/s1.setup2.php:201
+msgid "File filter enabled"
+msgstr "Souborový filtr povolen"
+
+#: views/packages/details/detail.php:297 views/packages/main/s1.setup2.php:156
+msgid "Local"
+msgstr "Lokální"
+
+#: views/packages/details/detail.php:284 views/packages/main/s1.setup2.php:143
+msgid "Default"
+msgstr "Výchozí"
+
+#: views/packages/main/s1.setup2.php:134 views/settings/storage.php:68
+msgid "Location"
+msgstr "Umístění"
+
+#: views/packages/details/detail.php:268 views/packages/main/s1.setup2.php:115
+#: views/settings/controller.php:25
+msgid "Storage"
+msgstr "Úložiště"
+
+#: views/packages/main/s1.setup1.php:246
+msgid "Remove Files Now"
+msgstr "Odstranit soubory nyní"
+
+#: views/packages/main/s1.setup1.php:228
+msgid "Reserved Files"
+msgstr "Vyhrazené soubory"
+
+#: views/packages/main/s1.setup1.php:209
+#: views/tools/diagnostics/inc.data.php:26
+msgid "more info"
+msgstr "více info"
+
+#: views/packages/main/s1.setup1.php:202
+msgid "MySQLi Support"
+msgstr "Podpora MySQLi"
+
+#: views/packages/main/s1.setup1.php:198
+msgid "MySQL Version"
+msgstr "Verze MySQL"
+
+#: views/packages/main/s1.setup1.php:192
+msgid "Server Support"
+msgstr "Serverová podpora"
+
+#: views/packages/main/s1.setup1.php:158
+msgid "Required Paths"
+msgstr "Požadované cesty"
+
+#: views/packages/main/s1.setup1.php:134 views/packages/main/s1.setup1.php:139
+#: views/packages/main/s1.setup1.php:144
+msgid "Function"
+msgstr "Funkce"
+
+#: views/packages/main/s1.setup1.php:129
+msgid "Safe Mode Off"
+msgstr "Safe Mode vypnut"
+
+#: views/packages/main/s1.setup1.php:115
+msgid "Zip Archive Enabled"
+msgstr "ZIP archivace povolena"
+
+#: views/packages/main/s1.setup1.php:109 views/packages/main/s2.scan2.php:75
+msgid "PHP Version"
+msgstr "Verze PHP"
+
+#: views/packages/main/s1.setup1.php:103
+msgid "PHP Support"
+msgstr "Podpora PHP"
+
+#: views/packages/main/s1.setup1.php:97
+msgid "System requirements must pass for the Duplicator to work properly.  Click each link for details."
+msgstr "Systémové požadavky musí být splněny, aby Duplicator pracoval správně. Pro detaily klikněte na každý z odkazů."
+
+#: views/packages/main/s1.setup1.php:88
+msgid "Requirements:"
+msgstr "Požadavky:"
+
+#: views/packages/main/s1.setup1.php:64 views/packages/main/s2.scan1.php:188
+#: views/packages/main/s2.scan1.php:278 views/packages/main/s3.build.php:119
+msgid "Build"
+msgstr "Sestavení"
+
+#: views/packages/main/s1.setup1.php:63 views/packages/main/s2.scan1.php:187
+#: views/packages/main/s3.build.php:118
+msgid "Scan"
+msgstr "Sken"
+
+#: views/packages/main/s1.setup1.php:62 views/packages/main/s1.setup2.php:495
+#: views/packages/main/s2.scan1.php:186 views/packages/main/s2.scan2.php:7
+#: views/packages/main/s3.build.php:117
+msgid "Setup"
+msgstr "Příprava"
+
+#: views/packages/main/s1.setup1.php:12
+msgid "Package settings have been reset."
+msgstr "Nastavení balíčku byla resetována."
+
+#: views/packages/details/detail.php:532
+msgid "LOG"
+msgstr "DENÍK"
+
+#: views/packages/details/detail.php:408
+msgid "DATABASE"
+msgstr "DATABÁZE"
+
+#: views/packages/details/detail.php:526
+msgid "Package File Links"
+msgstr "Odkazy na soubor balíčku"
+
+#: views/packages/details/detail.php:243
+msgid "The following links contain sensitive data. Share with caution!"
+msgstr "Následující odkazy obsahují citlivá data. Sdílejte s opatrností!"
+
+#: views/packages/details/detail.php:240
+msgid "Download Links"
+msgstr "Odkazy na stažení"
+
+#: views/packages/main/s2.scan3.php:498
+msgid "Total Size"
+msgstr "Celková velikost"
+
+#: views/packages/details/detail.php:509
+msgid "View Package Object"
+msgstr "Zobrazit objekt balíčku"
+
+#: views/packages/details/detail.php:120 views/packages/main/s1.setup2.php:104
+#: views/packages/main/s2.scan3.php:594
+msgid "Notes"
+msgstr "Poznámky"
+
+#: views/packages/details/detail.php:108
+msgid "Hash"
+msgstr "Hash"
+
+#: views/packages/details/detail.php:128 views/settings/general.php:88
+#: views/tools/diagnostics/inc.settings.php:100
+#: views/tools/diagnostics/inc.settings.php:120
+#: views/tools/diagnostics/inc.settings.php:193
+msgid "Version"
+msgstr "Verze"
+
+#: views/packages/details/detail.php:205 views/packages/details/detail.php:345
+#: views/packages/main/packages.php:283 views/packages/main/s1.setup2.php:196
+#: views/packages/main/s2.scan3.php:22 views/packages/main/s3.build.php:185
+#: views/settings/packages.php:237
+msgid "Archive"
+msgstr "Archiv"
+
+#: views/packages/details/detail.php:221 views/packages/details/detail.php:456
+#: views/packages/main/packages.php:277 views/packages/main/s1.setup2.php:465
+#: views/packages/main/s3.build.php:182 views/settings/packages.php:317
+msgid "Installer"
+msgstr "Instalátor"
+
+#: views/packages/main/packages.php:191 views/packages/main/s2.scan3.php:592
+msgid "Package"
+msgstr "Balíček"
+
+#: views/packages/details/detail.php:96 views/packages/details/detail.php:276
+#: views/packages/details/detail.php:412 views/packages/main/packages.php:182
+#: views/packages/main/s1.setup2.php:95 views/packages/main/s1.setup2.php:132
+#: views/packages/main/s2.scan3.php:593
+msgid "Name"
+msgstr "Název"
+
+#: views/packages/main/packages.php:181 views/packages/main/s2.scan3.php:90
+#: views/packages/main/s2.scan3.php:401
+msgid "Size"
+msgstr "Velikost"
+
+#: views/packages/details/detail.php:124 views/packages/main/packages.php:180
+msgid "Created"
+msgstr "Vytvořeno"
+
+#: views/packages/details/controller.php:47
+msgid "Details"
+msgstr "Detaily"
+
+#: views/packages/main/packages.php:178
+msgid "Select all packages"
+msgstr "Vybrat všechny balíčky"
+
+#: views/packages/main/packages.php:128 views/packages/main/s3.build.php:141
+msgid "Create New"
+msgstr "Vytvořit nový"
+
+#: views/tools/diagnostics/logging.php:209
+msgid "Package Logs"
+msgstr "Historie balíčků"
+
+#: views/packages/main/packages.php:98
+msgid "Apply"
+msgstr "Provést"
+
+#: views/packages/main/packages.php:92
+msgid "Delete selected package(s)"
+msgstr "Smazat vybrané balíčky"
+
+#: views/packages/main/packages.php:90
+msgid "Bulk Actions"
+msgstr "Hromadné akce"
+
+#: views/parts/migration-clean-installation-files.php:78
+msgid "Help Support Duplicator"
+msgstr "Centrum podpory Duplicator"
+
+#: views/packages/main/packages.php:144 views/packages/main/packages.php:199
+msgid "No Packages Found"
+msgstr "Žádné balíčky nenalezeny."
+
+#: views/tools/diagnostics/support.php:128
+msgid "Pro Solutions!"
+msgstr "Pro řešení!"
+
+#: views/tools/diagnostics/support.php:123
+msgid "Other Commercial Resources"
+msgstr "Ostatní komerční zdroje"
+
+#: views/tools/diagnostics/support.php:120
+msgid "Alternatives"
+msgstr "Alternativy"
+
+#: views/tools/diagnostics/support.php:107
+msgid "Trusted Providers!"
+msgstr "Ověření poskytovatelé!"
+
+#: views/tools/diagnostics/support.php:102
+msgid "Servers That Work With Duplicator"
+msgstr "Servery, které pracují s Duplicator"
+
+#: views/tools/diagnostics/support.php:99
+msgid "Approved Hosting"
+msgstr "Schválený hosting"
+
+#: views/tools/diagnostics/support.php:85
+msgid "Get Support!"
+msgstr "Získat pomoc!"
+
+#: views/tools/diagnostics/support.php:81
+msgid "Get Help From IT Professionals"
+msgstr "Zístejte pomoc od IT profíků"
+
+#: views/tools/diagnostics/support.php:78
+msgid "Online Support"
+msgstr "Podpora on-line"
+
+#: views/tools/diagnostics/support.php:66
+msgid "Change Log"
+msgstr "Historie verzí"
+
+#: views/tools/diagnostics/support.php:62
+msgid "FAQs"
+msgstr "Často kladené otázky"
+
+#: views/tools/diagnostics/support.php:58
+msgid "User Guide"
+msgstr "Manuál"
+
+#: views/tools/diagnostics/support.php:54
+msgid "Quick Start"
+msgstr "Rychle začít"
+
+#: views/tools/diagnostics/support.php:53
+msgid "Choose A Section"
+msgstr "Vyberte sekci"
+
+#: views/tools/diagnostics/support.php:51
+msgid "Complete Online Documentation"
+msgstr "Kompletní dokumentace On-line"
+
+#: views/tools/diagnostics/support.php:48
+msgid "Knowledgebase"
+msgstr "Znalostní báze"
+
+#: views/settings/gopro.php:9 views/settings/gopro.php:13
+#: views/settings/import.php:23 views/settings/schedule.php:25
+#: views/tools/recovery.php:27 views/tools/templates.php:24
+msgid "Check It Out!"
+msgstr "Mrkněte na to!"
+
+#: views/settings/gopro.php:102
+msgid "Scheduled Backups"
+msgstr "Plánované zálohování"
+
+#: views/tools/diagnostics/support.php:32
+msgid "Migrating WordPress is a complex process and the logic to make all the magic happen smoothly may not work quickly with every site.  With over 30,000 plugins and a very complex server eco-system some migrations may run into issues.  This is why the Duplicator includes a detailed knowledgebase that can help with many common issues.  Resources to additional support, approved hosting, and alternatives to fit your needs can be found below."
+msgstr "Migrace WordPress webu je komplexní proces a logicky nelze zaručit, že celé to kouzlo proběhne u každého webu stejně hladce. S více než 30.000 pluginy a velmi komplexním serverovým ekosystémem se při některých migracích snadno dostanete do problémů. To je důvod, proč Duplicator zahrnuje detailní bázi znalostí, která Vám může pomoci s mnoha běžnými problémy. Zdroje pro následnou péči, ověřený hosting a alternativy k uspokojení vašich individuálních potřeb najdete níže."
+
+#: views/settings/gopro.php:81
+msgid "Migration Wizard"
+msgstr "Migrační asistent"
+
+#: views/settings/gopro.php:71
+msgid "Backup Files & Database"
+msgstr "Zálohovat soubory & databázi"
+
+#: views/settings/about-info.php:87
+msgid "Spread the Word"
+msgstr "Rozšířit do světa"
+
+#: views/settings/about-info.php:71
+msgid "Support Duplicator"
+msgstr "Podpořte Duplicator"
+
+#: duplicator-main.php:354 views/settings/license.php:8
+msgid "Manage"
+msgstr "Spravovat"
+
+#: duplicator-main.php:264
+msgid "Go Pro!"
+msgstr "Profi verze!"
+
+#: duplicator-main.php:247 views/tools/controller.php:19
+msgid "Tools"
+msgstr "Nástroje"
+
+#: duplicator-main.php:252 views/packages/main/packages.php:105
+#: views/settings/controller.php:19 views/settings/general.php:153
+msgid "Settings"
+msgstr "Nastavení"
+
+#: duplicator-main.php:241 views/packages/details/controller.php:53
+#: views/packages/main/s3.build.php:130 views/settings/controller.php:23
+msgid "Packages"
+msgstr "Balíčky"
+
+#: views/settings/controller.php:28
+msgid "About"
+msgstr "O nás"
+
+#: views/packages/main/packages.php:102
+msgid "Get Help"
+msgstr "Získat pomoc"
+
+#: classes/utilities/class.u.php:507
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nemáte dostatečná oprávnění k přístupu na tuto stránku."
+
+#: views/parts/migration-almost-complete.php:23
+msgid "Reserved Duplicator installation files have been detected in the root directory.  Please delete these installation files to avoid security issues."
+msgstr "Vyhrazené instalační soubory Duplicator byly smazány v kořenové složce. Odstraňte, prosím, tyto vyhrazené soubory a neriskujte bezpečnost. "
+
+#: views/packages/main/s1.setup2.php:293
+msgid "Use the full path for directories and files with semicolons to separate all paths."
+msgstr "Uvádějte absolutní cestu pro adresáře a soubory se středníkem k oddělení všech cest."
+
+#: views/packages/main/s1.setup2.php:292
+msgid "The directory, file and extensions paths above will be excluded from the archive file if enabled is checked."
+msgstr "Pokud toto povolíte, výše uvedené cesty k adresářům, souborům a příponám, budou vyřazeny ze souboru archivu."
+
+#: views/packages/main/s2.scan3.php:112
+msgid "Duplicator Pro."
+msgstr "Duplicator Pro."
+
+#: views/packages/details/detail.php:324 views/packages/main/packages.php:160
+#: views/packages/main/packages.php:325 views/packages/main/s1.setup2.php:173
+#: views/packages/main/s2.scan3.php:549 views/packages/main/s2.scan3.php:561
+#: views/packages/main/s3.build.php:21 views/packages/main/s3.build.php:230
+msgid "Duplicator Pro"
+msgstr "Duplicator Pro"
+
+#: views/packages/main/packages.php:372
+msgid "Are you sure you want to delete the selected package(s)?"
+msgstr "Opravdu chcete smazat vybrané balíčky?"
